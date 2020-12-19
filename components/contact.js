@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Home from './homecomponent';
-import {Text, ScrollView, FlatList} from 'react-native';
+import {Text, ScrollView, FlatList, Icon} from 'react-native';
 import { View, Platform } from 'react-native';
 import { createStackNavigator } from 'react-navigation-stack';
 import { createAppContainer } from 'react-navigation';

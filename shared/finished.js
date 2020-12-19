@@ -1,28 +1,28 @@
 export const FINISHED = [
     {
         id: 0,
-        name: "Project Walgreens",
+        name: "Nothing New",
         image: "/assets/images/IMG_0603.jpg",
-        featured: false,
+        featured: true,
         description: "Updated tile floor new register enclosesure."
     },
     {
         id: 1,
-        name: "Project Wal",
+        name: "Under The Sun",
         image: "/assets/images/IMG_0604",
-        featured: false,
+        featured: true,
         description: "New counter installation !"
     },
     {
         id: 2,
         name: "Project Green",
         image: "/assets/images/IMG_0605",
-        featured: false,
+        featured: true,
         description: "New tile floor install."
     },
     {
         id: 3,
-        name: "Hard Work",
+        name: "Ecclesiastes 1:9",
         image: "/assets/images/IMG_0606",
         featured: true,
         description: "Entire store update!!"

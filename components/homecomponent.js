@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
-import { View, Text } from 'react-native';
-import { Card } from 'react-native-elements';
+import { View, Text,} from 'react-native';
+import { Card, Icon } from 'react-native-elements';
 import { ScrollView } from 'react-native-gesture-handler';
 import { FINISHED } from '../shared/finished';
-import { FlatList } from 'react-native';
-import { ListItem } from 'react-native-elements';
+
 
 
 function RenderItem({item}) {
@@ -44,6 +43,12 @@ class Home extends Component {
                 <RenderItem 
                     item={this.state.finished.filter(finished => finished.featured)[0]}
                 />
+                <RenderItem 
+                item={this.state.finished.filter(finished => finished.featured)[1]}
+                />
+                <RenderItem 
+                 item={this.state.finished.filter(finished => finished.featured)[3]}
+                 />
             </ScrollView>
         );
     }
