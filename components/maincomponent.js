@@ -48,7 +48,7 @@ const ContactNavigator = createStackNavigator(
     {
         defaultNavigationOptions: ({navigation}) => ({
             headerStyle: {
-                backgroundColor: '#5637DD'
+                backgroundColor: '#222'
             },
             headerTintColor: '#fff',
             headerTitleStyle: {
@@ -73,7 +73,7 @@ const AboutNavigator = createStackNavigator(
     {
         defaultNavigationOptions: ({navigation}) => ({
             headerStyle: {
-                backgroundColor: '#5637DD'
+                backgroundColor: '#222'
             },
             headerTintColor: '#fff',
             headerTitleStyle: {
